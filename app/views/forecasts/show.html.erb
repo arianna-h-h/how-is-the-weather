@@ -1,0 +1,14 @@
+<h1>Today's forecast</h1>
+
+<% if @forecast %>
+  <p><strong>Current Temperature:</strong> <%= @forecast[:temperature] %>°C</p>
+  <% if @forecast[:high] && @forecast[:low] %>
+    <p><strong>High:</strong> <%= @forecast[:high] %>°C</p>
+    <p><strong>Low:</strong> <%= @forecast[:low] %>°C</p>
+  <% end %>
+  <% if @cached %>
+    <p><em>This forecast was retrieved from cache.</em></p>
+  <% end %>
+<% else %>
+  <p>Forecast not available.</p>
+<% end %>

@@ -1,0 +1,7 @@
+<h1>What's the weather today?</h1>
+
+<%= form_tag('/forecasts/show', method: 'get') do %>
+  <%= label_tag(:address, "Enter Address:") %>
+  <%= text_field_tag(:address) %>
+  <%= submit_tag("Get Forecast") %>
+<% end %>
