@@ -11,6 +11,8 @@
 /log/*
 /tmp/*
 
+/.env 
+/.rspec
 
 /public/assets
 .byebug_history
