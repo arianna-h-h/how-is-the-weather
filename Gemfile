@@ -31,4 +31,5 @@ end
 group :test do
   gem 'webmock', '~> 3.23.0'
   gem 'actionpack', '~> 6.0'
+  gem 'rails-controller-testing'
 end
