@@ -1,5 +1,4 @@
 require 'spec_helper'
-# require 'weather_api'
 require 'webmock/rspec'
 require_relative '../../app/services/weather_api'
 
