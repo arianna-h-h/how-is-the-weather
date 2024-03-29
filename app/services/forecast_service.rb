@@ -1,17 +1,13 @@
 class ForecastService
-  attr_reader :cached_forecast
 
   def initialize(address)
     @address = address
-    @cached_forecast = nil
   end
 
   def fetch_forecast
-      cached_result = cached_forecast
-    return cached_result if cached_result
+    return cached_forecast if cached_forecast
     fetch_and_cache_forecast
   end
-
 
   private
 
