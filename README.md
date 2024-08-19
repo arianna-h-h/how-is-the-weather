@@ -1,6 +1,6 @@
 # README
 
-### Specs:
+### Specs
 * Accept an address as input
 * Retrieve forecast data for the given address. This should include, at minimum, the current temperature (Bonus points - Retrieve high/low and/or extended forecast)
 * Display the requested forecast details to the user
@@ -15,7 +15,7 @@
     * I used services to abstract the logic from the controller. The functionality of the services did not quite fit into the traditional rails folders.
 5. After manually testing in the browser, I wrote tests. I could have written the tests first using TDD methodology. However, this application was simple enough that writing rspec tests post manual testing is sufficient.
 
-### How to use:
+### How to use
 * Rename `.env.example` to `.env`. Add `MAPBOX_TOKEN` by creating an account and access token at https://account.mapbox.com/auth/signup/ or contact me for an API key.
 * Run `rails s` in the command line.
 * Navigate to [localhost:3000/forecasts](http://localhost:3000/forecasts) in the browser.
