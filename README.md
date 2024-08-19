@@ -1,7 +1,6 @@
 # README
 
-### Requirements for this project:
-* Must be done in Ruby on Rails
+### Specs:
 * Accept an address as input
 * Retrieve forecast data for the given address. This should include, at minimum, the current temperature (Bonus points - Retrieve high/low and/or extended forecast)
 * Display the requested forecast details to the user
